@@ -1,0 +1,50 @@
+.contactMe {
+     display: flex;
+     margin-bottom: 125px;
+}
+
+.myInput {
+     width: 100%;
+     padding: 15px 0;
+     margin-bottom: 15px;
+     display: block;
+     border: none;
+     outline: none;
+     border-bottom: 1.5px solid #041230;
+}
+
+.myInput::placeholder {
+     color: #333;
+     font-size: 13px;
+     letter-spacing: 1px;
+     text-transform: capitalize;
+     font-family: "Open Sans", sans-serif;
+}
+
+.contactInfo {
+     width: 40%;
+}
+
+.contactForm {
+     width: 60%;
+}
+
+.myAddress {
+     margin: 20px 0;
+     display: block;
+}
+
+.myAddress b {
+     font-size: 14px;
+     float: left;
+     margin-top: 4px;
+     margin-right: 5px;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 700;
+     color: #000;
+}
+
+.myAddress p {
+     font-size: 14px;
+     margin-right: 5px;
+}

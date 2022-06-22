@@ -1,0 +1,37 @@
+.ProjectFinished {
+     display: flex;
+     justify-content: center;
+     padding: 120px 0;
+}
+
+.projectCard {
+     width: 30%;
+     text-align: center;
+     padding: 30px 0;
+     border-right: 2px solid rgb(173, 172, 172);
+}
+
+.projectCard:last-child {
+     border-right: none;
+}
+
+.projectCard h1 {
+     display: flex;
+     justify-content: center;
+     font-family: "Montserrat";
+     color: #181a2f;
+     margin-bottom: 10px;
+     font-size: 40px;
+     font-weight: 700;
+     line-height: 1;
+}
+
+.projectCard p {
+     font-family: "Open Sans", sans-serif;
+     margin-top: 0;
+     color: #666;
+     font-size: 14px;
+     text-transform: capitalize;
+     display: block;
+     font-weight: 600;
+}

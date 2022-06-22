@@ -1,0 +1,44 @@
+.cardWrapper {
+     width: 290px;
+     position: relative;
+}
+
+.card {
+     top: 0;
+     width: 290px;
+     padding: 40px 40px;
+     background-color: #fff;
+     border-radius: 5px;
+     box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+
+.cardWrapper:hover .card {
+     position: absolute;
+     animation: topper 2s;
+}
+
+.icons svg {
+     width: 50px;
+}
+
+.title {
+     margin-bottom: 17px;
+     font-family: "Montserrat";
+     font-size: 22px;
+     font-weight: 600;
+     color: #000000;
+     line-height: 1;
+}
+
+@keyframes topper {
+     0% {
+          transform: translateY(0);
+     }
+     20%,
+     40%,
+     60%,
+     80%,
+     100% {
+          transform: translateY(-2%);
+     }
+}

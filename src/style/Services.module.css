@@ -1,0 +1,11 @@
+.serviceWrapper {
+     display: flex;
+     gap: 25px;
+     flex-wrap: wrap;
+}
+
+.icons {
+     font-size: 50px;
+     color: #e3872d;
+     margin: 20px 0;
+}

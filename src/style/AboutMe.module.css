@@ -1,0 +1,90 @@
+.AboutMeWrapper {
+     display: flex;
+     gap: 30px;
+     justify-content: space-between;
+}
+
+.imageCover {
+     width: 270px;
+     height: 285px;
+     border: 10px solid red;
+     position: relative;
+}
+
+.myImage {
+     position: absolute;
+     width: 100%;
+     top: -30px;
+     left: -30px;
+}
+
+.imageCover:hover .myImage {
+     transform: perspective(40deg);
+}
+
+.AboutMe {
+     width: 550px;
+}
+
+.myTitle {
+     margin-bottom: 18px;
+     font-size: 24px;
+     font-weight: 500;
+     color: #212529;
+     font-family: "Montserrat", sans-serif;
+}
+
+.myDesc {
+     color: #212529;
+     font-family: "Open Sans";
+     font-size: 14px;
+     line-height: 1.8;
+     letter-spacing: 0.5px;
+     word-wrap: break-word;
+     font-weight: 400;
+     margin-bottom: 15px;
+}
+
+.nameColor {
+     color: #e3872d;
+}
+
+.myAddress {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+}
+
+.myAddress ul {
+     list-style: none;
+}
+
+.myAddress ul li {
+     margin: 10px 0;
+}
+
+.myAddress ul span {
+     display: flex;
+}
+
+.myAddress span label {
+     font-family: "Montserrat";
+     font-weight: 700;
+     font-size: 13px;
+     color: #000;
+     width: 85px;
+}
+
+.myAddress span p {
+     color: #212529;
+     font-family: "Open Sans";
+     font-size: 14px;
+     line-height: 1.8;
+     letter-spacing: 0.5px;
+     word-wrap: break-word;
+     font-weight: 400;
+}
+.Buttons {
+     display: flex;
+     gap: 30px;
+}

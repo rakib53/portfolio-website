@@ -1,0 +1,9 @@
+.latestNewsWrappers {
+     background: #f6f7fd;
+     padding: 25px 0 100px;
+}
+
+.latestNews {
+     display: flex;
+     gap: 30px;
+}
